@@ -4,7 +4,7 @@ files:
  - source: /
     destination: /home/ec2-user/pinbot-app
 hooks:
-  ApplicationStop"
+  ApplicationStop:
     - location: scripts/application_stop.sh
       timeout: 300
       runas: ec2-user
